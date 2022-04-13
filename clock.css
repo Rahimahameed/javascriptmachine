@@ -1,16 +1,11 @@
-/* body{
-    background: linear-gradient(to right,hsl(200,50%,50%),hsl(175,50%,50%));
-} */
 
 #clock {
 	position: relative;
 	margin: auto;
 	height: 40vw;
-	/*to make the height and width responsive*/
 	width: 40vw;
 	background: url(https://media.geeksforgeeks.org/wp-content/uploads/20210302161254/imgonlinecomuaCompressToSizeOmNATjUMFKw-300x300.jpg) no-repeat;
-	/*setting our background image*/
-	background-size: 100%;
+     background-size: 100%;
 
 }
 
@@ -18,7 +13,6 @@
 #minute,
 #second {
 	position: absolute;
-	/* background:red; */
 	border-radius: 10px;
 	transform-origin: bottom;
 }
